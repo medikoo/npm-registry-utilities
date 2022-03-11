@@ -4,10 +4,23 @@
 
 # npm-registry-utilities
 
+## Utilities for retrieving data from npm registry
+
 ### Installation
 
 ```bash
 npm install npm-registry-utilities
+```
+
+### Available utilities
+
+- [`resolve-package-metadata`](docs/resolve-package-metadata.md) - Resolves meta data for given package name
+- [`resolve-version-metadata`](docs/resolve-version-metadata.md) - Resolves meta data for version of given package name that matches provided version range
+
+### Tests
+
+```bash
+npm test
 ```
 
 [build-image]: https://github.com/medikoo/npm-registry-utilities/workflows/Integrate/badge.svg
